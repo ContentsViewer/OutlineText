@@ -15,7 +15,7 @@
     OutlineText::Init();
 
 
-    $text = file_get_contents("Sample.content");
+    $text = htmlspecialchars (file_get_contents("Sample.content"));
 
 
     echo "<pre>";

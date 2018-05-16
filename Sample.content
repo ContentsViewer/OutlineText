@@ -3,18 +3,22 @@ OutlineTextのサンプルです.
 # Section
     Sectionの内容
 
-    # List
-        * 項目0
-        * 項目1
-        * 項目2
+    # SubSection
+        SubSectionの内容
 
-    # Table
-        |[Table]
-        | Title || Content |
-        |-------||---------|
-        | Name0  || Content0 |
-        | Name1  || Content1 |
-        | Name2  || Content2 |
+    
+# List
+    * 項目0
+    * 項目1
+    * 項目2
+
+# Table
+    |[Table]
+    | Title || Content |
+    |-------||---------|
+    | Name0  || Content0 |
+    | Name1  || Content1 |
+    | Name2  || Content2 |
 
 
 # Link
@@ -22,3 +26,29 @@ OutlineTextのサンプルです.
 
 # Image
     ![OutlineText](OutlineText.png)
+
+# Inline Code
+    このように行内に`printf("Helloe world!!");`を記述可能.
+
+# Code block
+
+    ```csharp
+using System.Collections.Generic;
+
+class ClassName
+{
+    public string memberStr;
+    public int memberInt;
+    public List<float> floatArray;
+
+    public ClassName(){
+        floatArray = new List<float>();
+    }
+
+    public void MemberMethod(){
+        
+    }
+
+}
+
+    ```
