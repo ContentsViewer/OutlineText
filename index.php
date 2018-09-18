@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="Style.css" />
+    <link rel="stylesheet" href="OutlineTextStandardStyle.css" />
 </head>
 
 
