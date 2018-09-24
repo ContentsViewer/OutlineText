@@ -12,22 +12,17 @@
 <?php
     include "OutlineText.php";
 
-    OutlineText::Init();
-
+    OutlineText\Parser::Init();
 
     $text = htmlspecialchars (file_get_contents("Sample.content"));
 
 
     echo "<pre>";
-
     echo $text;
-
     echo "</pre>";
 
 
-
-
-    echo OutlineText::Decode($text);
+    echo OutlineText\Parser::Parse($text);
 
 
 ?>
